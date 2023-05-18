@@ -54,7 +54,7 @@ public class Main {
     public static void task3() {
         System.out.println("Задача №3");
         int deliveryDistance = 78;
-        if (calculationDeliveryTime(deliveryDistance) != 0) {
+        if (calculationDeliveryTime(deliveryDistance) >= 0) {
             System.out.println("Потребуется дней для доставки: " + calculationDeliveryTime(deliveryDistance));
         } else {
             System.out.println("Доставки нет");
